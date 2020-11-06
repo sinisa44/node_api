@@ -9,7 +9,7 @@ mongoose.connect( process.env.DATABASE, {
     useFindAndModify:true,
     useUnifiedTopology:true
 })
-.then(() => { console.log(`DB Connection Successfull`);})
+.then(() => { console.log(`DB Connection successfull`);})
 .catch((error) => { console.log( error)})
 
 const port = process.env.PORT || 5000;
